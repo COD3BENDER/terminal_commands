@@ -11,7 +11,7 @@
 | `mv` | Used to move files or directories ( you need to specify the directory you want to move the file to.) <br> **Example:** `mv example_m.txt ~/Desktop`) <br/>|
 | `ls` | this will list all the files and directories you can navigate to from the working directory.|
 | `ls -a` | Similar to `ls` but the `-a` flag means all and will also show hidden files/directories |
-| `cd folder` | Is used to navigate directories and change the working directory. <br> **Example:** `cd Desktop` will take you to desktop <br/> |  |
+| `cd folder` | Is used to navigate directories and change the working directory. <br> **Example:** `cd Desktop` will take you to desktop <br/>|
 | `cd ..` | Will take you back one directory |
 | `cd`  | Will take you to the root directory |
 | `code .`  | Will open the current folder in vscode|
@@ -21,6 +21,7 @@
 | `rm -rf`| forcefully remove directories/files even if they are protected|
 | `mkdir name`| to make a directory|
 | `touch name.txt`| used to make files if there isnt and update files if there is can change the file extension .txt, .java, .py ...|
+
 
 
 <br><br/>
@@ -55,6 +56,10 @@ git status
 To see the commit history you can use the command:
 ```
 git log
+```
+To see modified files you can use the command:
+```
+git log --raw
 ```
 To roll back changes and keep history use the command (you can find the ID you want to roll back to using git log):
 ```
