@@ -86,7 +86,7 @@ to clone a repository:
 git clone url
 ``` 
 
-.gitignore files are used to make git ingnore files for tracking such as the .venv folder when using intellij you can specifiy in your .gitignore files what file or types of files you dont want tracked and they wont get pushed.
+.gitignore files are used to make git ingnore files for tracking such as the .venv folder when using PyCharm or .idea for IntelliJ you can specifiy in your .gitignore files what file or types of files you dont want tracked and they wont get pushed.
 
 
 
